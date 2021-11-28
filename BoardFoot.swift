@@ -15,7 +15,7 @@ import Foundation
 // Returns the length of a board foot given a width and a height
 func lengthCalculation(width: Double, height: Double) -> Double {
 
-    let boardFootSize = 144;
+    let boardFootSize = 144
 
     return boardFootSize / width / height
 }
